@@ -1,0 +1,1 @@
+    document.getElementById("finalTotalAmount").innerText = "Rs. " + finalTotal.reduce((a, b) => a + b) + "/-";
